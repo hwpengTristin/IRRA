@@ -65,6 +65,18 @@ python train.py \
 --num_epoch 60
 ```
 
+```python
+python train.py \
+--name iira \
+--img_aug \
+--batch_size 64 \
+--MLM \
+--loss_names 'sdm+mlm+id' \
+--dataset_name 'CUHK-PEDES' \
+--root_dir '/data/jianhui/home/jianhuili/Project_Coding/IRRA_LXH/dataset_root' \
+--num_epoch 60
+```
+
 ## Testing
 
 ```python
