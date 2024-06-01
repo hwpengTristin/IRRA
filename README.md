@@ -21,6 +21,7 @@ The goal of this work is to enhance global text-to-image person retrieval perfor
 we use single RTX3090 24G GPU for training and evaluation. 
 ```
 pytorch 1.9.0
+$ pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
 torchvision 0.10.0
 prettytable
 easydict
