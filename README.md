@@ -74,10 +74,14 @@ python train.py \
 --MLM \
 --loss_names 'sdm+mlm+id' \
 --dataset_name 'CUHK-PEDES' \
---root_dir '/data/jianhui/home/jianhuili/Project_Coding/IRRA_LXH/dataset_root' \
+--root_dir './../dataset_root' \
 --num_epoch 60
 ```
 
+```bash script
+chmod +x run_irra.sh
+./run_irra.sh
+```
 ## Testing
 
 ```python
